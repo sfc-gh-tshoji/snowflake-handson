@@ -56,7 +56,7 @@ CREATE OR REPLACE API INTEGRATION handson_git
 ```
 
 2. **Workspaces** メニューから **From Git repository** を選びます
-3. **Repository URL** に、次の URLを貼り付けます
+3. **Repository URL** に、次の URL を貼り付けます：`https://github.com/sfc-gh-tshoji/snowflake-handson`
 4. **API Integration** に `HANDSON_GIT` を選び、認証方法は **Public repository** を選んで **Create** を押します（公開リポジトリのため認証は不要です。変更の push はできません）
 
 作成したワークスペースに `README.md`（本手順書）、`redshift_assets/`、`sql/` が表示されれば完了です。
